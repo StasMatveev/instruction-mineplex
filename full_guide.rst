@@ -101,7 +101,8 @@ Mineplex был разработан под Linux x86_64, в основном п
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ::
 
-   ./mineplex-node run  --data-dir ~/mineplex-mainnet --rpc-addr 127.0.0.1:8732 --connections 15
+   ./mineplex-node run  --data-dir ~/mineplex-mainnet --rpc-addr 127.0.0.1:8732 --connections 15 --history-mode=archive
+
 
 Не завершайте данный процесс, держите данную команду запущенной на протяжений всего времени.
 
